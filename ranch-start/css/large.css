@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1028px){
+    h1{color:red}
+    nav{
+        background-color:black;
+    }
+    body{
+        background-color:gray;
+    }
+
+    nav ul{
+        padding-left:2%;
+    }
+    nav ul li{
+        flex-basis:auto;
+    }
+    nav a{
+        padding:.5rem 1rem;
+    }
+}/*end of the media query*/

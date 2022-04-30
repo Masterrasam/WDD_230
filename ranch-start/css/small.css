@@ -1,0 +1,70 @@
+/*body rules here*/
+body{
+    font-family:verdana;
+    font-size:16px;
+}
+
+/*header rules here*/
+header{
+    background-color:skyblue;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin:0;
+}
+header h2 {
+    margin:0;
+}
+
+/*navigation rules here*/
+nav{
+    background-color:black;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav li{
+    list-style-type:none;
+}
+nav li.active{
+    background-color:gray;
+}
+nav a{
+    display:black;
+    padding: .8rem 0;/*44 min height*/
+    color:white;
+    text-align:center;
+    text-decoration:none;
+}
+nav a:hover{
+    background-color:skyblue;
+}
+/*main rules here*/
+main{display:block;
+padding:1rem 2%;}
+
+main h1{
+    color:skyblue;
+}
+main figure img{
+    width:100%;
+}
+main figure{
+    width:100%;
+    margin:0;
+}
+main figcaption{
+    text-align:center;
+    font-size:.8rem;
+}
+footer{
+    background-color:skyblue;
+    text-align:center;
+    padding:1rem 2%;
+}
+
+
+
+
